@@ -1,5 +1,6 @@
 import React from 'react'
 import OutlineButton from '../../components/Buttons/OutlineButton'
+import { Link } from 'react-router-dom'
 
 const Details = () => {
 
@@ -54,11 +55,11 @@ const Details = () => {
                         desc="1"
                     />
                     <div className='text-white'>
-                        <a href="/application-form">
+                        <Link to="/application-form">
                             <OutlineButton style="w-full">
                                 Apply
                             </OutlineButton>
-                        </a>
+                        </Link>
                     </div>
                 </div>
             </div>

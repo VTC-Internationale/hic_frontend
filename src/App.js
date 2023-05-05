@@ -3,7 +3,7 @@ import Apply from "./pages/Apply/Apply";
 import Home from "./pages/Home/Home";
 import Login from "./pages/auth/Login";
 import MyJobs from "./pages/MyJobs/MyJobs";
-import {BrowserRouter, HashRouter, Route, Routes} from 'react-router-dom'
+import {HashRouter, Route, Routes} from 'react-router-dom'
 import Admin from "./pages/Admin/Admin";
 import About from "./pages/About/About";
 import SignUp from "./pages/auth/SignUp";

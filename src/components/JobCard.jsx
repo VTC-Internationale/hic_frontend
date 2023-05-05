@@ -1,8 +1,9 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const JobCard = () => {
   return (
-    <a href="/apply" className='bg-white border rounded transition-all duration-500 hover:bg-[#38406F] hover:text-white'>
+    <Link to="/apply" className='bg-white border rounded transition-all duration-500 hover:bg-[#38406F] hover:text-white'>
         <div className=' px-4 py-6 '>
             <div className='flex flex-col justify-between'>
                 <div>
@@ -30,7 +31,7 @@ const JobCard = () => {
                 </div>
             </div>
         </div>
-    </a>
+    </Link>
   )
 }
 
