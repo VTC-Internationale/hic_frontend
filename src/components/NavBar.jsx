@@ -1,6 +1,5 @@
 import React from 'react'
 import { useState } from 'react'
-import Button from './Buttons/Button'
 import OutlineButton from './Buttons/OutlineButton'
 import logo from '../assets/hic.png'
 import logo2 from '../assets/hic2.png'

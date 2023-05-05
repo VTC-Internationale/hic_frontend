@@ -3,8 +3,6 @@ import logo from '../../assets/hic.png'
 import small from '../../assets/ICON.png'
 
 const SideBar = ({toggle}) => {
-    const [mouseOver, setMouseOver] = useState(false)
-
   return (
     <>
         {!toggle && <div className=' relative bg-[#38406F] w-[15rem] overflow-y-auto h-screen text-white py-8'>
